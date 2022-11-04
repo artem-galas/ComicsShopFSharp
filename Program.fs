@@ -18,6 +18,8 @@ module Program =
         let app = builder.Build()
 
         app.MapGet("/comics", Func<string, IResult>(fun (_) -> GetAllComics.handler)) |> ignore
+        app.MapGet("/comics/{id}", Func<string, IResult>(fun id -> GetComicsById.handler id)) |> ignore
+        app.MapPost("/comics", Func<_, IResult>(fun data -> PostComics.handler data)) |> ignore
 
         app.Run()
 

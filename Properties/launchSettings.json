@@ -11,8 +11,7 @@
   "profiles": {
     "FSharp_comics": {
       "commandName": "Project",
-      "launchBrowser": true,
-      "launchUrl": "weatherforecast",
+      "launchUrl": "comics",
       "applicationUrl": "https://localhost:7182;http://localhost:5199",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

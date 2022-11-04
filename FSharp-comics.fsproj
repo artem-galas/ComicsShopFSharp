@@ -9,6 +9,8 @@
 		<Compile Include="Repositories\ComicsRepo.fs" />
 		<Compile Include="Mappers\ComicsMapper.fs" />
 		<Compile Include="Endpoints\GetAllComics.fs" />
+		<Compile Include="Endpoints\GetComicsById.fs" />
+		<Compile Include="Endpoints\PostComics.fs" />
 		<Compile Include="Program.fs" />
 	</ItemGroup>
 	<ItemGroup>

@@ -1,10 +1,12 @@
 ﻿namespace FSharp_comics.Domains
 
+open System
+
 module Comics =
-    type Price = Price of float
 
     type T = {
+        Id: string
         Title: string
-        Price: Price
+        Price: float
         Description: string   
     }
